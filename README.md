@@ -6,17 +6,17 @@ This dataset accompanies the phD thesis 'Nonperturbative properties of QCD verti
 
 This dataset consists of data for the residue function associated with the pole structure of the three-gluon vertex. Using both the STI and the SDE for this vertex, we compute the residue function of the pole associated with a structure following a double pole of the vertex. To numerically determine this residue function, we solve the SDE for the form factor $A_3^p(q)$ of the ghost-gluon scattering kernel. These two sets of data constitute the contributions of this article.
 
-The data generated in this article are contained in two files: 'A3p.dat' and 'V9.dat'. The first file contains the data for the form factor $A_3^p(q)$ of the ghost-gluon scattering kernel, solved via SDE, as a function of the momentum $q$. The second file contains the data for the residue function $V_9(q)$ as a function of the momentum $q$, computed via the STI result using the SDE result for $A_3^p(q)$, and via the SDE with $A_3^p(q)=0$.
+The data generated in this article are contained in two files: 'A3p.dat' and 'V9.dat'. The first file contains the data for the form factor $A_3^p(q)$ of the ghost-gluon scattering kernel as a function of the momentum $q$. The second file contains the data for the residue function $V_9(q)$ as a function of the momentum $q$, computed via the STI result using the SDE result for $A_3^p(q)$, and via the SDE with $A_3^p(q)=0$.
 
 The figures in the article use the data as follows:
 
-Fig. 9 The right panel data are contained in the 'A3p.dat' file. 
+Fig. 9 (right panel) data are contained in the 'A3p.dat' file. 
 
 Fig. 10 displays the data in the file 'V9.dat'.
 
 2) Data from the article: https://doi.org/10.1140/epjc/s10052-024-13605-9 [Preprint version: https://arxiv.org/abs/2408.15370].
 
-Consists on data for the eight form factors of the transversally projected quark-gluon vertex through its 3PI SDE, in the Landau gauge, with two degenerate light quarks, using as external inputs the gluon and ghost propagators and three-gluon vertex as lattice data fits. 
+Consists on data for the eight form factors of the transversally projected quark-gluon vertex through its 3PI SDE, in the Landau gauge, with two degenerate light quarks, using as external inputs the gluon and quark propagators and three-gluon vertex as lattice data fits. 
 
 The data for the eight form factors, $\lambda_i$, with i=1,...,8, in the form of arrays Lambdai(nx,nx,nth) with nx=30 and nth=10, is containned in the file 'formfactors.dat'.
 
